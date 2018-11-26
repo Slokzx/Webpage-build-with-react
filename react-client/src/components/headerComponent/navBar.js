@@ -5,6 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <header>
+        <p> Header component </p>
         <ul id="headerButtons">
           <li className="navButton"><Link to="">Home</Link></li>
         </ul>
